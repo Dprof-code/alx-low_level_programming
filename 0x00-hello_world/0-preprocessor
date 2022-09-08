@@ -1,2 +1,2 @@
-#!/bin/bash
-echo "betty $CFILE"
+#!/bin/bash"
+gcc $CFILE -E -o c
