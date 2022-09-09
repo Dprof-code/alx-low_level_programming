@@ -19,7 +19,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 
-	if n + n > 1
+	if (n + n > 1)
 	{
 		printf("%d is positive\n", n);
 	} else if (n + n == 0)
