@@ -1,0 +1,12 @@
+# Low-level programming & Algorithm
+
+This repository contains my solutions to various programming problems related to low level programming and algorithms in the ALX Software Engineering program. As a beginner in this field, I have implemented solutions in the C programming language with a focus on understanding the fundamentals of programming and computer architecture.
+
+Each subdirectory in the repository corresponds to a different topic, with detailed explanations of the problems and the approaches I took to solve them. Some of the topics covered in this repository include data structures, memory management, sorting algorithms, and much more.
+
+Through this repository, I hope to not only document my journey in learning low level programming and algorithms, but also provide a resource for others who are starting out in this field. Please feel free to browse through the repository, use the code in your own projects, and leave any comments or feedback.
+
+## Projects
+
+0x00. C - Hello, World
+0x01. C - Variables, if, else, while
