@@ -1,6 +1,6 @@
 # Low-level programming & Algorithm
 
-<a href="https://ibb.co/jHphhwh"><img src="https://i.ibb.co/7b9vvpv/A-Level-Computer-Science-Low-Level-Programming.webp" alt="A-Level-Computer-Science-Low-Level-Programming" width="100%" height="50px" border="0"></a>
+<a href="https://ibb.co/jHphhwh"><img src="https://i.ibb.co/7b9vvpv/A-Level-Computer-Science-Low-Level-Programming.webp" alt="A-Level-Computer-Science-Low-Level-Programming" width="100%" height="200px" border="0"></a>
 
 This repository contains my solutions to various programming problems related to low level programming and algorithms in the ALX Software Engineering program. As a beginner in this field, I have implemented solutions in the C programming language with a focus on understanding the fundamentals of programming and computer architecture.
 
