@@ -8,5 +8,5 @@ Through this repository, I hope to not only document my journey in learning low 
 
 ## Projects
 
-0x00. C - Hello, World
-0x01. C - Variables, if, else, while
+- 0x00. C - Hello, World
+- 0x01. C - Variables, if, else, while
