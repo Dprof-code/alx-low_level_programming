@@ -7,19 +7,22 @@
  */
 int main(void)
 {
-int x = 0;
-int y = 0;
-int z = 0;
+int x = '0';
+int y = '0';
+int z = '0';
 
-while (x <= 9)
+while (x <= '9')
 {
-	while (y <= 9)
+	while (y <= '9')
 	{
-		while (z <= 9)
+		while (z <= '9')
 		{
 			putchar(x);
 			putchar(y);
 			putchar(z);
+
+			putchar(',');
+			putchar(' ');
 			z++;
 		}
 		z = y;
@@ -28,4 +31,6 @@ while (x <= 9)
 	y = x;
 	x++;
 }
+putchar('\n');
+return (0);
 }
