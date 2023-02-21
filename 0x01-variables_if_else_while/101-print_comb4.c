@@ -21,7 +21,7 @@ while (x <= '9')
 			{
 				putchar(x);
 				putchar(y);
-				putchar(z);				
+				putchar(z);
 				if (x != '7')
 				{
 					putchar(',');
