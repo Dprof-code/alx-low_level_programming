@@ -17,12 +17,17 @@ while (x <= '9')
 	{
 		while (z <= '9')
 		{
-			putchar(x);
-			putchar(y);
-			putchar(z);
-
-			putchar(',');
-			putchar(' ');
+			if (x < y && y < z)
+			{
+				putchar(x);
+				putchar(y);
+				putchar(z);				
+				if (x != '7')
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 			z++;
 		}
 		z = y;
