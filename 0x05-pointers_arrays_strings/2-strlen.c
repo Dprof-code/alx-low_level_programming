@@ -16,7 +16,7 @@ int _strlen(char *s)
 
 	while ((*(s + i)) > 0)
 	{
-		printf("char: %c\n", *(s + i));
+		/**printf("char: %p\n", (s + i));*/
 		i++;
 		l++;
 	}
