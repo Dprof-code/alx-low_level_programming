@@ -9,7 +9,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	/* get length of char in src string */
+	/* get length of char in dest string */
 	int len, i;
 
 	len = 0;
