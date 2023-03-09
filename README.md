@@ -18,3 +18,4 @@ Through this repository, I hope to not only document my journey in learning low 
 - 0x05. C - Pointers, arrays and strings
 - 0x06. C - More pointers, arrays and strings
 - 0x07. C - Even more pointers, arrays and strings
+- 0x08. C - Recursion
