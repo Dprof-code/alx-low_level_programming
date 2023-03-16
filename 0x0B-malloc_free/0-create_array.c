@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * create_array - creates an array of chars
@@ -22,6 +23,11 @@ char *create_array(unsigned int size, char c)
 	for (i = 0; i < s; i++)
 	{
 		str[i] = c;
+	}
+
+	if  (str == NULL)
+	{
+		printf("failed to allocate memory\n");
 	}
 
 	return (str);
