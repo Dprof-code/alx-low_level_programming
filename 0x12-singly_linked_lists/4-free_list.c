@@ -3,7 +3,7 @@
 /**
  * free_list -  frees a list_t list.
  * @head: linked list.
- * 
+ *
  * Return: nothing
  */
 
