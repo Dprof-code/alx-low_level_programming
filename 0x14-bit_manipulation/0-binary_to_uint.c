@@ -36,6 +36,9 @@ int check_char(const char *b)
 {
 	int i, j;
 
+	if (b == NULL)
+		return (1);
+
 	for (i = 0, j = strlen(b); j != 0; i++, j--)
 	{
 		if (b[i] != '0' && b[i] != '1')

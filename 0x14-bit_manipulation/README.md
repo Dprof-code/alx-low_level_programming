@@ -8,28 +8,19 @@ Bit manipulation is the act of algorithmically manipulating bits or other pieces
 
 Bitwise operator works on bits and perform bit by bit operation.
 
-| & | AND   |
-| :------------: | :------------: |
-| \| | OR   |
-| :------------: | :------------: |
-| ~ | NOT   |
-| :------------: | :------------: |
-| << | Left Shift   |
-| :------------: | :------------: |
-| << | Right Shift   |
-| :------------: | :------------: |
+| &   | AND         |
+| --- | ----------- |
+| \|  | OR          |
+| ~   | NOT         |
+| <<  | Left Shift  |
+| >>  | Right Shift |
 
-
-| A | B   | A|B   | A&B | A^B   | ~A   |
-| :------------: | :------------: | :------------: |
-| 0 | 0   | 0   | 0 | 0   | 1   |
-| :------------: | :------------: | :------------: |
-| 0 | 1   | 1   | 0 | 1   | 1   |
-| :------------: | :------------: | :------------: |
-| 1 | 0   | 1   | 0 | 1   | 0   |
-| :------------: | :------------: | :------------: |
-| 1 | 1   | 1   | 1 | 0   | 0   |
-| :------------: | :------------: | :------------: |
+| A   | B   | A\|B | A&B | A^B | ~A  |
+| --- | --- | ---- | --- | --- | --- |
+| 0   | 0   | 0    | 0   | 0   | 1   |
+| 0   | 1   | 1    | 0   | 1   | 1   |
+| 1   | 0   | 1    | 0   | 1   | 0   |
+| 1   | 1   | 1    | 1   | 0   | 0   |
 
 Within this directory, each file corresponds to a different task, with a detailed explanation of the problem and the approach I took to solve it. Some of the tasks covered in this directory include printing text to the console, working with variables, and writing simple functions.
 
