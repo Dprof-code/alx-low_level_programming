@@ -15,11 +15,11 @@ char *str_concat(char *s1, char *s2)
 	int i, j;
 
 	if (s1 == NULL)
-		s1 = " ";
+		s1 = "";
 	else if (s2 == NULL)
-		s2 = " ";
+		s2 = "";
 
-	str = (char *)malloc(sizeof(char) * (sizeof(s1) + sizeof(s2) + 1));
+	str = malloc(sizeof(char) * (length(s1) + length(s2) + 1));
 	if (str == NULL)
 		return (NULL);
 
@@ -32,4 +32,21 @@ char *str_concat(char *s1, char *s2)
 	str[i + j] = '\0';
 
 	return (str);
+}
+
+/**
+ * length - counts a string
+ * @str: string
+ * Return: count
+ */
+
+int length(char *str)
+{
+	int i;
+
+	i = 0;
+	while (str[i] != '\0')
+		i++;
+
+	return (i);
 }

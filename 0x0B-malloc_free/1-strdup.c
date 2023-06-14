@@ -17,7 +17,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	new_str = (char *)malloc(sizeof(str));
+	new_str = malloc((length(str) + 1) * sizeof(char));
 	if (new_str == NULL)
 		return (NULL);
 
@@ -26,4 +26,21 @@ char *_strdup(char *str)
 	new_str[i] = '\0';
 
 	return (new_str);
+}
+
+/**
+ * length - counts a string
+ * @str: string
+ * Return: count
+ */
+
+int length(char *str)
+{
+	int i;
+
+	i = 0;
+	while (str[i] != '\0')
+		i++;
+
+	return (i);
 }
