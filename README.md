@@ -20,4 +20,5 @@ Through this repository, I hope to not only document my journey in learning low 
 - 0x07. C - Even more pointers, arrays and strings
 - 0x08. C - Recursion
 - 0x09. C - Static libraries
+- 0x0A. C - argc, argv
 - 0x0B. C - malloc, free
