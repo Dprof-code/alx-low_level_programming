@@ -10,25 +10,35 @@
 
 int main(int argc, char *argv[])
 {
-	int res, num1, num2;
+	int res, i;
+
+	res = 0;
+
+	if (argc < 2)
+	{
+		printf("0\n");
+		return (0);
+	}
 
 	for (i = 1; i < argc; i++)
 	{
-		if (argv[i] >= 0 || 
-	}
+		char *arg = argv[i];
+		int j;
 
-	if ()
-	{
-		printf("Error\n");
-		return (1);
+		for (j = 0; arg[j] != '\0'; j++)
+		{
+			if (isdigit(arg[j]))
+			{
+				res += atoi(&arg[j]);
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
 	}
-
-	num1 = atoi(argv[1]);
-	num2 = atoi(argv[2]);
-	res = num1 * num2;
 	printf("%d\n", res);
 
 	return (0);
 }
-
-int check_num(int num
