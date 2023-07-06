@@ -28,3 +28,4 @@ Through this repository, I hope to not only document my journey in learning low 
 - 0x0F. C - Function pointers
 - 0x10. C - Variadic functions
 - 0x12. C - Singly linked lists
+- 0x13. C - More singly linked lists
