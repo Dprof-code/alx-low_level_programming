@@ -9,7 +9,7 @@
 int get_endianness(void)
 {
 	unsigned int num = 0x01020304;
-	unsigned char *byte_array = (unsigned char*)&num;
+	unsigned char *byte_array = (unsigned char *);
 
-	return (byte_array[0] == 0x01) ? 0 : 1;
+	return ((byte_array[0] == 0x01) ? 0 : 1);
 }
